@@ -36,7 +36,7 @@ jobs:
       with:
         images: |
           ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
-          xelofan26/alpine-helper
+          docker.io/xelofan26/alpine-helper
         tags: |
           # set latest tag for default branch
           type=raw,value=latest,enable={{is_default_branch}}
