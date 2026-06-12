@@ -26,4 +26,4 @@ COPY --from=builder /root/.zshrc /root/.zshrc
 
 ENV SHELL=/bin/zsh
 
-CMD ["zsh"]
+CMD ["sleep", "3600"]
